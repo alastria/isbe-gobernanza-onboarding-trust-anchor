@@ -10,3 +10,14 @@ clients:
     requireProofKey: false
     jwkSetUrl: "https://verifier.evidenceledger.eu/oidc/did/did:key:zDnaezLhSFWRZ1zrYQRwLxV8nDWmb2REHoUf7N3qvna1TFina"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
+  - clientId: "isbe-issuer"
+    url: "https://issuer.evidenceledger.eu"
+    redirectUris: [ "https://idp.evidenceledger.eu/realms/isbe-issuer/broker/vc/endpoint" ]
+    scopes: [ "openid_learcredential" ]
+    clientAuthenticationMethods: [ "client_secret_jwt" ]
+    authorizationGrantTypes: [ "authorization_code" ]
+    postLogoutRedirectUris: [ "https://idp.evidenceledger.eu" ]
+    requireAuthorizationConsent: false
+    requireProofKey: false
+    jwkSetUrl: "https://https://idp.evidenceledger.eu/realms/isbe-issuer/protocol/openid-connect/certs"
+    tokenEndpointAuthenticationSigningAlgorithm: "ES256"
