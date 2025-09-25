@@ -19,5 +19,5 @@ clients:
     postLogoutRedirectUris: [ "https://idp.evidenceledger.eu" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://https://idp.evidenceledger.eu/realms/isbe-issuer/protocol/openid-connect/certs"
+    jwkSetUrl: "https://idp.evidenceledger.eu/realms/isbe-issuer/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
