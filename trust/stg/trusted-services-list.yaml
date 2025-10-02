@@ -33,7 +33,7 @@ clients:
     jwkSetUrl: "https://verifier.evidenceledger.eu/oidc/did/did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBej"
-    url: "https://verifier.evidenceledger.eu/"
+    url: "https://verifier.evidenceledger.eu"
     redirectUris: [ "https://evidenceledger.eu/auth/vc/callback" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
