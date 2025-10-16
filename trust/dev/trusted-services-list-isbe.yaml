@@ -12,14 +12,14 @@ clients:
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "isbe-issuer"
     url: "https://issuer.arsys.envs.redisbe.com"
-    redirectUris: [ "https://idp.arsys.envs.redisbe.com/realms/isbe-issuer/broker/vc/endpoint" ]
+    redirectUris: [ "https://iam.arsys.envs.redisbe.com/realms/isbe-issuer/broker/vc/endpoint" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "authorization_code" ]
-    postLogoutRedirectUris: [ "https://idp.arsys.envs.redisbe.com" ]
+    postLogoutRedirectUris: [ "https://iam.arsys.envs.redisbe.com" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://idp.arsys.envs.redisbe.com/realms/isbe-issuer/protocol/openid-connect/certs"
+    jwkSetUrl: "https://iam.arsys.envs.redisbe.com/realms/isbe-issuer/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
     url: "https://evidenceledger.eu"
