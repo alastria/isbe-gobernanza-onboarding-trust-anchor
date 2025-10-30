@@ -1,6 +1,6 @@
 clients:
   - clientId: "did:key:zDnaehAUDytTHuGPkYvn8HiAn2LdCL8TQPkncS5fm1yDkirwh"
-    url: "https://issuer.evidenceledger.eu"
+    url: "https://issuer.arsys.envs.redisbe.com"
     redirectUris: []
     scopes: []
     clientAuthenticationMethods: ["client_secret_jwt"]
@@ -8,38 +8,38 @@ clients:
     postLogoutRedirectUris: []
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.evidenceledger.eu/oidc/did/did:key:zDnaehAUDytTHuGPkYvn8HiAn2LdCL8TQPkncS5fm1yDkirwh"
+    jwkSetUrl: "https://verifier.arsys.envs.redisbe.com/oidc/did/did:key:zDnaehAUDytTHuGPkYvn8HiAn2LdCL8TQPkncS5fm1yDkirwh"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "isbe-issuer"
-    url: "https://issuer.evidenceledger.eu"
-    redirectUris: [ "https://idp.evidenceledger.eu/realms/isbe-issuer/broker/vc/endpoint" ]
+    url: "https://issuer.arsys.envs.redisbe.com"
+    redirectUris: [ "https://idp.arsys.envs.redisbe.com/realms/isbe-issuer/broker/vc/endpoint" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "authorization_code" ]
-    postLogoutRedirectUris: [ "https://idp.evidenceledger.eu" ]
+    postLogoutRedirectUris: [ "https://idp.arsys.envs.redisbe.com" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://idp.evidenceledger.eu/realms/isbe-issuer/protocol/openid-connect/certs"
+    jwkSetUrl: "https://idp.arsys.envs.redisbe.com/realms/isbe-issuer/protocol/openid-connect/certs"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
-    url: "https://evidenceledger.eu"
-    redirectUris: [ "https://evidenceledger.eu/auth/vc/callback" ]
+    url: "https://arsys.envs.redisbe.com"
+    redirectUris: [ "https://arsys.envs.redisbe.com/auth/vc/callback" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "authorization_code", "refresh_token" ]
-    postLogoutRedirectUris: [ "https://evidenceledger.eu/" ]
+    postLogoutRedirectUris: [ "https://arsys.envs.redisbe.com/" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.evidenceledger.eu/oidc/did/did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
+    jwkSetUrl: "https://verifier.arsys.envs.redisbe.com/oidc/did/did:key:zDnaeypyWjzn54GuUP7PmDXiiggCyiG7ksMF7Unm7kjtEKBez"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
   - clientId: "did:key:zDnaenULsRaBEF4xg31uUMs9j6Dd4SkwHJwCSnkUqBWjdHmL2"
-    url: "https://verifier.evidenceledger.eu"
-    redirectUris: [ "https://evidenceledger.eu/auth/vc/callback" ]
+    url: "https://verifier.arsys.envs.redisbe.com"
+    redirectUris: [ "https://arsys.envs.redisbe.com/auth/vc/callback" ]
     scopes: [ "openid_learcredential" ]
     clientAuthenticationMethods: [ "client_secret_jwt" ]
     authorizationGrantTypes: [ "authorization_code", "refresh_token" ]
-    postLogoutRedirectUris: [ "https://evidenceledger.eu/" ]
+    postLogoutRedirectUris: [ "https://arsys.envs.redisbe.com/" ]
     requireAuthorizationConsent: false
     requireProofKey: false
-    jwkSetUrl: "https://verifier.evidenceledger.eu/oidc/did/did:key:zDnaenULsRaBEF4xg31uUMs9j6Dd4SkwHJwCSnkUqBWjdHmL2"
+    jwkSetUrl: "https://verifier.arsys.envs.redisbe.com/oidc/did/did:key:zDnaenULsRaBEF4xg31uUMs9j6Dd4SkwHJwCSnkUqBWjdHmL2"
     tokenEndpointAuthenticationSigningAlgorithm: "ES256"
